@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "html.format.enable": false,
+  "prettier.disableLanguages": [
+      "html" // es6 template syntax not recognized
+  ],
+  "prettier.jsxBracketSameLine": true,
+  "editor.minimap.enabled": false,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "files.exclude": {
+      "node_modules": true,
+      "server": true,
+      "client": true,
+  },
+}
